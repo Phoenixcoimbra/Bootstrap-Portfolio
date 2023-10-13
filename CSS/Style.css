@@ -1,0 +1,26 @@
+.nav{
+display: flex;
+justify-content: space-between;
+
+}
+
+.masthead {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  .masthead h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  
+  .masthead p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .masthead img {
+    width: 100%;
+    height: auto;
+  }
