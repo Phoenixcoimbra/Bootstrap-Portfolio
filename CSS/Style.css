@@ -1,32 +1,66 @@
+ /* *{
+    background-image: url(../images/Phoenix-background.jpg);
+    background-size: cover;
+    background-position: center;
+}  */
 .nav{
+   
 display: flex;
 justify-content: space-between;
 
 }
+.container-fluid{
+    background-color: rgb(29, 101, 235)  ; 
+}
+
+.navbar-brand
+    {
+        background: linear-gradient(to right, rgb(124, 153, 233), rgb(29, 101, 235));
+        font-size: 1rem;
+        color: aliceblue;
+    }
 
 .masthead {
-    background-color: #fff;
+    
     padding: 80px 0;
+    background-image: url(../images/abstract-background-with-low-poly-design.jpg);
+    background-size: cover;
+    background-position: center;
+   
   }
   
   .masthead h1 {
     font-size: 4rem;
     font-weight: 700;
     line-height: 1.5;
+   color: aliceblue;
   }
   
   .masthead p {
     font-size: 1.2rem;
     line-height: 1.5;
+    color: aliceblue;
   }
   
   .masthead img {
     width: 50%;
     height: auto;
+    
   }
 
+.work{
+    
+    background-color:rgb(43, 39, 32);
+}
 .row img {
         width: 200px;
-        height: 100px;
+        height: 150px;
+        
+        
       
+}
+
+.list-group {
+    background-color:rgb(14, 18, 37);
+
 }
