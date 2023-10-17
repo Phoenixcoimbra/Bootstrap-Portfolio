@@ -49,7 +49,7 @@ justify-content: space-between;
   }
 
 .work{
-    
+  display: none;  
   background: linear-gradient(to right, rgb(124, 153, 233), rgb(29, 101, 235));
 }
 .row img {
@@ -58,6 +58,11 @@ justify-content: space-between;
         
         background: linear-gradient(to right, rgb(124, 153, 233), rgb(29, 101, 235)); 
       
+}
+.container {
+  text-overflow: inherit;
+  color: white;
+  
 }
 
 .list-group {
